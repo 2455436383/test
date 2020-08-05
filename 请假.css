@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+.Leave-header{
+	position:absolute;
+	left:500px;
+	font-size:50px;
+}
+.Leave-body{
+	position:absolute;
+	left:350px;
+	top:150px;
+	font-size:20px;
+}
+.Leave-footer{
+	position:absolute;
+	left:900px;
+	top:600px;
+}

@@ -1,0 +1,90 @@
+.image1 {
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	/* [disabled]z-index:1; */
+	left: 80px;
+	top: 50px;
+	}
+.image2{
+	margin: 0px;
+	padding: 0px;
+	position: absolute;
+	z-index: -1;
+	left: 240px;
+	top: 20px;
+	height: 110px;
+	}
+.manage1{
+	margin:0px;
+	font-size: 35px;
+	margin-left: 200px;
+	margin-top: -23px;
+	padding:0px;
+	position:absolute;
+	z-index:1;
+	left:80px;
+	top:40px;
+}
+.word1{
+	margin: 0px;
+	margin-top: 35px;
+	padding: 0px;
+	position: absolute;
+	z-index: -1;
+	margin-left: 290px;
+	top: 50px;
+	left: 40px;
+	}
+
+.gxnu{
+	left: 280px;
+	top: 90px;
+	position: absolute;
+	height: 45px;
+	width: 45px;
+}
+.mainpage{
+	position: absolute;
+	background-color: #F4F5F7;
+	padding-top: 160px;
+	padding-left: 400px;
+	height: 250px;
+	width: 600px;
+	left:290px;
+	z-index: -1;
+	top:150px;
+	display：inline
+	}
+
+
+.maincontent {
+	background-color: #FFF;
+	position: absolute;
+	height: 300px;
+	width: 940px;
+	left: 320px;
+	top: 225px;
+	display：inline
+}
+.mainpage .mini {
+	position: absolute;
+	left: 34px;
+	top: 37px;
+	font-size: 18px;
+	color: #000;
+}
+.rightconer {
+	position: absolute;
+	left: 1000px;
+	top: 40px;
+	height: 10px;
+	width: 15px;
+}
+.mainpage .first {
+	position: absolute;
+	left: 12px;
+	top: 7px;
+	font-size: 18px;
+	color: #000;
+}

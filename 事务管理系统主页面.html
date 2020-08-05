@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>学生事务管理系统主页面</title>
+<link / href="学生事务管理系统主页面.css" type="text/css" rel="stylesheet">
+<link / rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<link / href="在线帮助文档.css" type="text/css" rel="stylesheet">
+
+<style>a{TEXT-DECORATION:none}</style>
+<link href="modal.css" rel="stylesheet" type="text/css" />
+<link href="center.css" rel="stylesheet" type="text/css" />
+<link href="pull1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div>
+       <div class="MainPageTopLeft">
+       <p class="MainPageTopLeftPicture1">
+        <i class="fa fa-list-ul fa-5x"></i>
+        </p>
+        <img / class="MainPageTopLeftPicture2" src="学生事务管理系统主页面图片1.png">
+       </div>
+       <div class="MainPageTopRight">
+         <p class="MainPageTopRightName1">
+           学生事务管理系统
+         </p>
+         <img / class="MainPageTopLeftPicture3" src="学生事务管理系统主页面图片2.jpg">
+         <p class="MainPageTopRightName2">
+           广西师范大学
+           <br />
+           计算机科学与信息工程学院/软件学院
+         </p>
+         <div class="MainPageTopRightPicture1">
+            <pre>
+         	<i style="color: #F2B258" class="fa fa-circle fa-3x" ></i>
+         	</pre>
+         </div>
+         
+         <p class="MainPageTopRightName3">
+           欢迎您，学生姓名
+         </p>
+         <P>
+         <a href="事务管理系统.html">
+         <p class="MainPageTopRightPicture2">
+           <i class="fa fa-power-off fa-2x"></i>
+         </p>
+         </a>
+         </P>
+       </div>
+       <div class="MainPageLowerLeft">
+       
+        
+<button class="accordion"><a style="color:#FFF" class="list-group-item" ><i style="color:#FFF" class="fa fa-home fa-fw"></i>&nbsp; 个人信息中心</a></button>
+<div class="panel">
+  <a style="color:#FFF" class="list-group-item"><i style="color:#FFF" class="fa fa-eye fa-fw"></i>&nbsp; 个人信息查看</a>
+  <br/>  <br/>
+  <a style="color:#FFF" class="list-group-item" ><i style="color:#FFF" class="fa fa-edit fa-fw"></i>&nbsp; 个人信息修改</a>
+</div>
+
+<button class="accordion"> <a style="color:#FFF" class="list-group-item"><i style="color:#FFF" class="fa fa-book fa-fw"></i>&nbsp; 修改登录密码</a>
+  </button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+<button class="accordion"><a style="color:#FFF" class="list-group-item" ><i style="color:#FFF" class="fa fa-pencil fa-fw"></i>&nbsp; 用户角色切换</a>
+ </button>
+<div class="panel">
+  <a style="color:#FFF" class="list-group-item"><i style="color:#FFF" class="fa fa-user fa-fw"></i>&nbsp; 学生</a>
+  <br/>  <br/>
+  <a style="color:#FFF" class="list-group-item" ><i style="color:#FFF" class="fa fa-user-circle-o fa-fw"></i>&nbsp; 教师</a>
+</div>
+<button class="accordion"> <a style="color:#FFF" class="list-group-item" ><i style="color:#FFF" class="fa fa-cog fa-fw"></i>&nbsp; 系统问题反馈</a></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet.</p>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}</script>
+
+       </div>
+       <div class="MainPageLowerRight">
+          <div class="MainPageLowerRight1">
+            <p class="MainPageLowerRightName1">
+             首页>主页面
+            </p>
+            <p class="MainPageLowerRightName2">
+            个人主页面
+            </p>
+          </div>
+          <div class="MainPageLowerRight2">
+          <a href="待办事项界面1.html">
+            <div class="MainPageLowerRightFrame1">
+               <p class="MainPageLowerRightName3">
+               待办事项
+               </p>
+            </div>
+          </a>
+             <a  href="已办事项界面1.html">
+             <div class="MainPageLowerRightFrame2"> 
+               <p class="MainPageLowerRightName4">
+               已办事项
+               </p> 
+             </div>
+             </a>
+            <a href="事务中心界面1.html">
+            <div class="MainPageLowerRightFrame3">
+              <p class="MainPageLowerRightName5">
+                事务中心
+               </p>
+            </div>
+             </a>
+             <!--  点击在线帮助文档的时候调用一个新的函数，函数为一个新的小模块-->
+            <div id="triggerBtn">
+                   <div class="MainPageLowerRightFrame4" >
+                      <p class="MainPageLowerRightName6">
+                         在线帮助文档
+                      </p>
+                  </div>
+            </div>
+            
+            <div id="triggerBtn1">
+            <div class="MainPageLowerRightFrame5">
+               <p class="MainPageLowerRightName7">
+               近期公告
+               </p>
+             </div>
+             </div>
+            <a href="消息中心界面1.html">
+            <div class="MainPageLowerRightFrame6">
+               <p class="MainPageLowerRightName8">
+               消息中心
+               </p>
+            </div>
+             </a>
+          </div>
+       </div>
+    </div>
+    <div id="myModal" class="modal">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h2>在线帮助文档</h2>
+                <span id="closeBtn" class="close">×</span>
+            </div>
+            <div class="modal-body">
+                <p>
+                  <h2>学生端</h2>
+                  <h2>1.待办事项：</h2>
+                  <h3>学生请假-销假申请</h3>填写申请表格->提交->辅导员审核->申请通过->下载Word文档->学生到教务处签领
+                   <br />
+                  <h3>学生外宿-退宿申请</h3>填写申请表格->提交->辅导员审核->申请通过->下载Word文档->学生到教务处签领
+                   <br />
+                  <h3>学费缓交申请</h3>填写申请表格->提交->辅导员审核->申请通过->下载Word文档->学生到教务处签领
+                   <br />
+                  <h3>学分转换申请</h3>学分转换申请->填写申请表格->上传相关材料->教秘审查->审查通过->生成Word文档->学生查看Word文档->学生到教务处签字
+                   <br />
+                  <h3>学生活动审批</h3>学生选择要申请的活动->上传活动申请表->老师审批签字（电子版）->申请通过->返回申请表格，向组织部和办公室发送活动表格
+                  <br />
+                  <h3>免听申请</h3>填写申请表格->辅导员审核->副院长审核->加盖院章->生成Word文档并打印->通知学生到中心签领
+                  <br />
+                  <h3>开学籍申请</h3>填写申请表格->辅导员审核->审核->副院长审核->加盖院章->生成Word文档并打印->通知学生到中心签领
+                  <br />
+                  <h3>教室申请</h3>填写申请表格->辅导员办公室助理申请通过，选择教室->辅导员办公室助理生成教室申请条并上传到系统->申请人打印申请条->到行政楼盖章
+                  <br />
+                  <h3>本科生/研究生缓考申请</h3>填写申请表格->辅导员签字（电子）->副院长签字（电子）->申请表发送到教学办->学生收到完成通知
+                  <br />
+                  <h3>本科生退学申请</h3>填写申请表格->学院院长审核->由院长上传可打印的Word文档->学生到设备处领取打印好的退学文档
+                  <h2>2.已办事项：</h2>
+                  <h2>3.事务中心：</h2>
+                  <h2>4.在线帮助文档：</h2>帮助学生快速的使用本系统
+                  <h2>5.近期公告:</h2>显示最近的一些公告信息
+                  <h2>6.消息中心：</h2>学生和学生、老师和教务处的信息交流处
+                </p>  
+            </div>
+            <div class="modal-footer">
+                <h3>文档到底了~</h3>
+            </div>
+        </div>
+    </div>
+   <script type="text/javascript" src="在线帮助文档.js">
+    </script>
+
+<!-- 触发按钮 -->
+   
+
+   <!-- 模态框 -->
+    <div id="myModal2" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>近期公告</h2>
+                <span id="closeBtn2" class="close">×</span>
+            </div>
+            <div class="modal-body">
+                <a href="http://www.dean.gxnu.edu.cn/2020/0710/c3239a182163/page.htm" ><h3>关于2020级全日制普通本科新生2020～2021学年秋季学期排课、选课的通知</h3>
+               <a href="http://www.dean.gxnu.edu.cn/2020/0628/c3240a181264/page.htm" ><h3>我校召开一流专业建设工作推进会</h3></a>
+               <a href="http://www.dean.gxnu.edu.cn/2020/0725/c3239a183240/page.htm" ><h3>教务处2020年招聘行政管理人员（岗位gkzp09）考试通知</h3></a>
+               <a href="http://www.dean.gxnu.edu.cn/2020/0720/c3239a182935/page.htm" ><h3>2019-2020学年第二学期期末课程考核情况通报四</h3></a>
+              <a href="http://www.dean.gxnu.edu.cn/2020/0720/c3239a182909/page.htm" ><h3>2019-2020学年第二学期期末课程考核情况通报三</h3></a> 
+              <a href="http://www.dean.gxnu.edu.cn/2020/0718/c3239a182794/page.htm" ><h3>2019-2020学年第二学期期末课程考核情况通报二</h3></a> 
+              <a href="http://www.dean.gxnu.edu.cn/2020/0713/c3239a182343/page.htm" ><h3>2019-2020学年第二学期期末课程考核情况通报一</h3></a> 
+              <a href="http://www.dean.gxnu.edu.cn/2020/0710/c3239a182191/page.htm" ><h3>关于公布2020年广西师范大学师范专业实践能力培养模式改革试点立项项目的通知</h3></a> 
+              <a href="http://www.dean.gxnu.edu.cn/2020/0716/c3239a182590/page.htm" ><h3>关于公布我校2020年虚拟仿真实验教学培育立项项目的通知</h3></a> 
+            </div>
+        </div>
+  </div>
+<script type="text/javascript" src="modal.js"></script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ .SignIn{
+	 margin:0px;
+	 padding:0px;
+	 position:absolute;
+	 z-index:1;
+	 left:0px;
+	 top:0px;
+	 width:100%;
+	 height:100%;
+   }
+   .logo{
+	   margin:0px;
+	   padding:0px;
+	   position:absolute;
+	   z-index:2;
+	   left:0px;
+	   top:15px;
+   }
+   .SingInLeft{
+	   margin:0px;
+	   padding:0px;
+	   position:absolute;
+	   z-index:2;
+	   left:300px;
+	   top:200px;
+   }
+   .SignInRight{
+	   position:absolute;
+	   z-index:2;
+	   width:450px;
+	   height:480px;
+	   left:800px;
+	   top:200px;
+	   background-color:#FFF;
+   }
+   .SignInRightName1{
+	   font-size:40px;
+	   font-weight:600;
+	   color:#00F;
+	   text-indent:2em;
+	   }
+   .SignInRightName2{
+	   font-size:30px;
+	   font-weight:600;
+	   text-indent:2em;
+   }
+   .SignInUserIDPicture{
+	   position:absolute;
+	   z-index:2;
+	   left:60px;
+	   top:210px;
+	   border-bottom-style:groove;
+	   width:250px;
+	   height:30px;
+	   opacity:0.6;
+   }
+    .UserIDFrame{
+	   position:absolute;
+	   z-index:2;
+	   margin:0px;
+	   left:45px;
+	   top:-8px;
+	   height:30px; 
+	   width:200px;
+	   font-size:18px;
+   }
+   .SignInUserPasswordPicture{
+	   position:absolute;
+	   z-index:2;
+	   left:60px;
+	   top:280px;
+	   border-bottom-style:groove;
+	   height:30px;
+	   width:250px;
+	   opacity:0.6;
+   }
+   .UserPasswordFrame{
+	   position:absolute;
+	   z-index:2;
+	   margin:0px;
+	   left:45px;
+	   top:-8px;
+	   height:30px; 
+	   width:200px;
+	   font-size:18px;
+   }
+   .RememberPassword{
+	   position:absolute;
+	   z-index:2;
+	   left:60px;
+	   top:350px;
+	   color:101010;
+   }
+   .SystemLoginFrame{
+	    border: none;
+       outline: none;
+	   position:absolute;
+	   z-index:2;
+	   left:60px;
+	   top:400px;
+	   width:80px;
+	   height:30px;
+	   background-color:#3A62D7;
+   }
+   .SystemLogin{
+	   position:absolute;
+	   z-index:3;
+	   left:10px;
+	   top:-8px;
+	   color:#FFF;
+   }
+   .YiBanLoginFrame{
+	border: none;
+	outline: none;
+	position: absolute;
+	z-index: 2;
+	left: 230px;
+	top: 400px;
+	width: 80px;
+	height: 30px;
+	background-color: #3A62D7;
+   }
+   .YiBanLogin{
+	   position:absolute;
+	   z-index:3;
+	   left:10px;
+	   top:-8px;
+	   color:#FFF;
+   }
+   .ForgetPassword{
+	   position:absolute;
+	   z-index:2;
+	   left:250px;
+	   top:430px;
+	   color:#3A62D7;
+   }
+  
+   
+   
+   
+   

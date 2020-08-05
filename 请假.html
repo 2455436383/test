@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>请假窗口</title>
+<link / href="请假.css" type="text/css" rel="stylesheet">
+ <script>
+function cha(){
+var y1=document.twoday.y1.value;
+var m1=document.twoday.m1.value;
+var d1=document.twoday.d1.value;
+var y2=document.twoday.y2.value;
+var m2=document.twoday.m2.value;
+var d2=document.twoday.d2.value;
+var date1="";
+date1+=y1;
+date1+="/";
+date1+=m1;
+date1+="/";
+date1+=d1;
+var date2="";
+date2+=y2;
+date2+="/";
+date2+=m2;
+date2+="/";
+date2+=d2;
+var begin = new Date(date1);//日期对象
+var end = new Date(date2);
+var diff = end.getTime() -begin.getTime();//获取两个日期对象相减，单位是毫秒
+document.twoday.day.value=((diff/(3600*1000))/24);
+}
+function Submit(){
+	var se=confirm("已提交成功！");
+
+}
+</script>
+</head>
+
+<body>
+     <div class="Leave-header">
+        <p>广西师范大学请假审批表</p>
+      </div>
+       <div class="Leave-body">
+           <div>
+             <p>学院/部：
+             <input / type="text" value="计算机科学与信息工程学院/软件学院" style="width:250px;height:20px">
+             </p>
+           </div>
+           <div>
+             <p>
+             <label>姓名：
+             <input / type="text" name="Studentname" style="width:120px;">
+             </label>
+             <label>学号：
+             <input / type="text" name="StudentID" style="width:120px;">
+             </label>
+             <label>年级：
+             <input / type="text" name="Level" style="width:50px;">
+             </label>
+             <label>专业：
+             <input / type="text" name="professional" style="width:120px;">
+             </label>
+             </p>
+           </div>
+            <div>
+             <p>
+             <label>培养层次：
+               <input / type="radio" name="Cultivation-level" value="本科生">本科生
+               <input / type="radio" name="Cultivation-level" value="研究生">研究生
+               <input / type="radio" name="Cultivation-level" value="博士生">博士生
+             </label>
+             <label>辅导员：
+             <input / type="text" style="width:100px;">
+             </label>
+             <label>导师：
+             <input / type="text" style="width:100px;">
+             </label>
+             </p>
+           </div>
+           <div>
+             <p>
+             <form name="twoday">请假时间：
+             <input type="text" name="y1" style="width:50px;" >年
+             <input type="text" name="m1" style="width:50px;">月
+             <input type="text" name="d1" style="width:50px;">日
+             至
+             <input type="text" name="y2" style="width:50px;">年
+             <input type="text" name="m2" style="width:50px;">月
+             <input type="text" name="d2" style="width:50px;">日
+             <input type="button" onclick="cha()" value="共计">：
+             <input type="text" name="day" style="width:50px;">天
+             </form>
+             </p>
+           </div>
+           <div>
+           <p>
+           <label>去向为
+           <input / type="text" name="reseason" value="" style="width:250px;">
+           ，本人联系方式：
+           <input / type="text" name="contact-information" value="">
+           。
+           </label>
+           </p>
+           </div>
+           <div>
+           <p>
+           <label>
+           本人承诺：请假事宜已告知家人，请假外出期间个人人身及财产安全自负。
+           </label>
+           </p>
+           </div>
+           <div>
+           <p>
+           <label>
+           外出期间紧急联系人及联系电话：
+           <input / type="text" name="emergency-phone" value="" style="width:300px;">
+           </label>
+           </p>
+           </div>
+           <div>
+           <p>
+           <label>
+           导师意见：
+           <input / type="text" name="mentor-opinion" value="">
+           时间
+           <input / type="date" name="mentor-answer-time" value="start-date">
+           </label>
+           </p>
+           </div>
+           <div>
+           <label>
+           辅导员意见：
+           <input / type="text" name="counselor-opinion" value="">
+           时间
+           <input / type="date" name="counselor-answer-time" value="start-date">
+           </label>
+           </div>
+       </div>
+       <div class="Leave-footer">
+       <a href="事务管理系统主页面.html">
+       <button onclick="Submit()">确定</button>
+       </a>
+       </div>
+</body>
+</html>

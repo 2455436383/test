@@ -1,0 +1,108 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>已办事项界面</title>
+<link / href="已办事项界面1.css" type="text/css" rel="stylesheet">
+<link / href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="center.css" rel="stylesheet" type="text/css" />
+<link href="pull1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+     <div>
+       <div class="MainPageTopLeft">
+       <p class="MainPageTopLeftPicture1">
+        <i class="fa fa-list-ul fa-5x"></i>
+        </p>
+        <img / class="MainPageTopLeftPicture2" src="学生事务管理系统主页面图片1.png">
+       </div>
+       <div class="MainPageTopRight">
+       <a href="事务管理系统主页面.html">
+         <p class="MainPageTopRightName1">
+           学生事务管理系统
+         </p>
+         </a>
+         <img / class="MainPageTopLeftPicture3" src="学生事务管理系统主页面图片2.jpg">
+         <p class="MainPageTopRightName2">
+           广西师范大学
+           <br />
+           计算机科学与信息工程学院/软件学院
+         </p>
+         <div class="MainPageTopRightPicture1">
+            <pre>
+         	<i style="color: #F2B258" class="fa fa-circle fa-3x" ></i>
+         	</pre>
+         </div>
+         
+         <p class="MainPageTopRightName3">
+           您好，同学
+         </p>
+         <P>
+         <a href="事务管理系统.html">
+         <p class="MainPageTopRightPicture2">
+           <i class="fa fa-power-off fa-2x"></i>
+         </p>
+         </a>
+         </P>
+       </div>
+       <div class="MainPageLowerLeft">
+       
+        
+<button class="accordion"><a style="color:#FFF" class="list-group-item" ><i style="color:#FFF" class="fa fa-home fa-fw"></i>&nbsp; 个人信息中心</a></button>
+<div class="panel">
+  <a style="color:#FFF" class="list-group-item"><i style="color:#FFF" class="fa fa-eye fa-fw"></i>&nbsp; 个人信息查看</a>
+  <br/>  <br/>
+  <a style="color:#FFF" class="list-group-item" ><i style="color:#FFF" class="fa fa-edit fa-fw"></i>&nbsp; 个人信息修改</a>
+</div>
+
+<button class="accordion"> <a style="color:#FFF" class="list-group-item"><i style="color:#FFF" class="fa fa-book fa-fw"></i>&nbsp; 修改登录密码</a>
+  </button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet.</p>
+</div>
+
+<button class="accordion"><a style="color:#FFF" class="list-group-item" ><i style="color:#FFF" class="fa fa-pencil fa-fw"></i>&nbsp; 用户角色切换</a>
+ </button>
+<div class="panel">
+  <a style="color:#FFF" class="list-group-item"><i style="color:#FFF" class="fa fa-user fa-fw"></i>&nbsp; 学生</a>
+  <br/>  <br/>
+  <a style="color:#FFF" class="list-group-item" ><i style="color:#FFF" class="fa fa-user-circle-o fa-fw"></i>&nbsp; 教师</a>
+</div>
+<button class="accordion"> <a style="color:#FFF" class="list-group-item" ><i style="color:#FFF" class="fa fa-cog fa-fw"></i>&nbsp; 系统问题反馈</a></button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet.</p>
+</div>
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].onclick = function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight){
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  }
+}</script>
+
+       </div>
+       <div class="MainPageLowerRight">
+          <div class="MainPageLowerRight1">
+            <p class="MainPageLowerRightName1">
+             首页>主页面>已办事项
+            </p>
+            <p class="MainPageLowerRightName2">
+            已办事项
+            </p>
+          </div>
+          <div class="MainPageLowerRight2">
+         </div>
+    </div>
+
+
+</body>
+</html>
